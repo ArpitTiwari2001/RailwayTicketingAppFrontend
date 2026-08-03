@@ -1,0 +1,22 @@
+.dashboard-card {
+    width: 160px;
+    height: 160px;
+    background: rgba(128, 0, 255, 0.1);
+    border-radius: 10px;
+    text-align: center;
+    padding: 15px;
+    margin: 10px;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+  
+  .dashboard-card:hover {
+    background: rgba(128, 0, 255, 0.3);
+  }
+  
+  .card-icon {
+    width: 60px;
+    height: 60px;
+  }
+
+  

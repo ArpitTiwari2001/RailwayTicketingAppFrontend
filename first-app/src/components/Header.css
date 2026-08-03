@@ -1,0 +1,23 @@
+.header {
+    background: #8000ff;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 0px;
+  }
+  
+  .title {
+    font-weight: bold;
+    font-size: 20px;
+  }
+  
+  .nav-link {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    margin-left: 20px;
+  }
+  
+  .logout {
+    color: lightgray;
+  }

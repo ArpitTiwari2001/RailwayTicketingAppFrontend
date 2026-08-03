@@ -1,0 +1,85 @@
+.passenger-page {
+    display: flex;
+  }
+  
+  .passenger-content {
+    margin-left: 200px;
+    padding: 20px;
+    width: 100%;
+  }
+  
+  .title {
+    font-size: 24px;
+    color: purple;
+    text-shadow: 1px 1px 1px gray;
+  }
+  
+  .search-bar {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  .search-bar input {
+    margin-left: 10px;
+    padding: 5px;
+    width: 250px;
+  }
+  
+  .search-btn {
+    background: purple;
+    color: white;
+    padding: 5px 10px;
+    border: none;
+    margin-left: 10px;
+    cursor: pointer;
+  }
+  
+  .passenger-table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .passenger-table th {
+    background: purple;
+    color: white;
+    padding: 10px;
+  }
+  
+  .passenger-table td {
+    text-align: center;
+    padding: 10px;
+    border: 1px solid lightgray;
+  }
+  
+  .passenger-link {
+    color: blue;
+    text-decoration: underline;
+  }
+  
+  .train-type.local {
+    color: blue;
+  }
+  
+  .train-type.limited-express {
+    color: green;
+  }
+  
+  .train-type.express {
+    color: red;
+  }
+  
+  .pagination {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+  }
+  
+  .pagination button {
+    background: purple;
+    color: white;
+    padding: 5px 15px;
+    border: none;
+    cursor: pointer;
+  }
+  
